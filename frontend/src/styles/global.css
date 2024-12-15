@@ -1,0 +1,207 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif; /* Fuente estilo japonés */
+    background-color: #fdf6e3; /* Tono suave crema */
+    color: #2b2b2b;
+    line-height: 1.6;
+    background-image: url('../IMAGES/padoru bg ok.gif');
+    background-size: cover; /* Ajusta el tamaño del fondo */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center; /* Centra la imagen */
+}
+
+
+h1, h2, h3 {
+  color: #c0392b; /* Rojo tradicional japonés */
+  font-family: 'Merriweather', serif; /* Tipografía con un toque elegante */
+}
+
+p{
+  margin: 0.5rem 0;
+  color: #4a4a4a;
+}
+
+a{
+  text-decoration: none;
+  color: #c0392b;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #f39c12; /* Dorado vibrante */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-bottom: 4px solid #c0392b; /* Línea decorativa */
+}
+
+.navbar a{
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+}
+
+.navbar a:hover{
+  color: #e74c3c; /* Rojo intenso al pasar el ratón */
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer{
+  background-color: #2b2b2b; /* Negro carbón */
+  color: #ecf0f1; /* Blanco suave */
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 4px solid #c0392b; /* Línea decorativa */
+}
+
+/* Recipe Card */
+.recipe-card{
+  background-color: #ffdbc7; /* Blanco puro */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  margin: 1.5rem;
+  max-width: 320px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+.recipe-card:hover{
+  transform: scale(1.05); /* Pequeña animación para llamar la atención */
+}
+
+.recipe-card img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #f39c12; /* Acento dorado */
+}
+
+.recipe-card h3{
+  margin: 0.75rem 0;
+  font-size: 1.25rem;
+  color: #e74c3c; /* Rojo intenso */
+}
+
+.recipe-card p{
+  color: #7f8c8d; /* Gris suave */
+  font-size: 0.95rem;
+}
+
+/* User Card */
+.user-card{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.user-card:hover{
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.user-card h3{
+  margin: 0;
+  font-size: 1.3rem;
+  color: #c0392b;
+}
+
+.user-card p{
+  font-size: 1rem;
+  color: #636e72;
+}
+
+/* Forms */
+form{
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  max-width: 450px;
+}
+
+form input, form textarea, form button{
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button{
+  background-color: #e74c3c; /* Rojo atractivo */
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover{
+  background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+}
+
+/* Home and Lists */
+.home, .users-lists{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+/* Utility Classes */
+.center{
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.recipe-details{
+  max-width: 650px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-details img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-details h1{
+  color: #e74c3c;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-details ul{
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.recipe-details .error{
+  color: red;}

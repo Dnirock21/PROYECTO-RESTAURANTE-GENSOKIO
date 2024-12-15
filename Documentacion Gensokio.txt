@@ -1,0 +1,45 @@
+Documentación del Proyecto: Restaurante Gensokio
+1. Introducción
+Restaurante Gensokio es un proyecto dedicado a la promoción y presentación de la gastronomía tradicional japonesa. Este restaurante ofrece a los clientes una variedad de recetas auténticas de la cocina japonesa, destacando la frescura y tradición en cada plato.
+El objetivo principal del proyecto es desarrollar una plataforma que permita a los usuarios explorar el menú del restaurante, conocer los ingredientes de cada receta de manera sencilla y eficiente. El proyecto se enfoca en brindar una experiencia de usuario agradable y fluida.
+2. Equipo de Trabajo
+El proyecto "Restaurante Gensokio" está liderado y desarrollado por un equipo multidisciplinario que se ha encargado de diferentes aspectos del desarrollo:
+•	Jorge Andres Cruel Salazar – Líder del Proyecto
+Responsable de la supervisión y coordinación general del proyecto, asegurando que se cumplan los objetivos dentro de los plazos y la calidad esperada.
+•	Daniel Andres Cobaleda Montaño – DB Manager
+Encargado del diseño, implementación y mantenimiento de la base de datos. Se asegura de que toda la información relacionada con el restaurante, como recetas, ingredientes y usuarios, esté organizada y accesible de manera eficiente.
+•	Karen Julieth Fajardo Granada – Backend Developer
+Responsable del desarrollo de la lógica de negocio y la conexión entre la base de datos y la interfaz de usuario. Implementa funcionalidades como la gestión de recetas y usuarios.
+•	Juan Diego Sanchez Castaño – Frontend Developer
+Encargado del desarrollo de la interfaz de usuario. Se asegura de que el diseño del sitio web sea atractivo, intuitivo y fácil de navegar, adaptando la plataforma a diferentes dispositivos.
+
+
+3. Características del Proyecto:
+El proyecto incluye las siguientes funcionalidades principales:
+•	Visualización de recetas japonesas: Los usuarios pueden navegar por una amplia variedad de recetas tradicionales japonesas, cada una con una descripción detallada, lista de ingredientes y pasos de preparación.
+•	Diseño intuitivo y responsivo: La plataforma está diseñada para adaptarse al tamaño de la pantalla de las computadoras de escritorio, garantizando una experiencia de usuario óptima.
+
+4. Estructura del Proyecto:
+l.      proyecto se organiza en tres componentes principales:
+1.	Base de datos: Gestionada por Daniel Andres Cobaleda Montaño, almacena toda la información relacionada con los platos, recetas, ingredientes.
+2.	Backend: Desarrollado por Karen Julieth Fajardo Granada, el backend conecta la base de datos con el frontend y maneja las operaciones como el registro de usuarios y otras funcionalidades del servidor.
+3.	Frontend: Creado por Juan Diego Sanchez Castaño, el frontend se encarga de la presentación visual del sitio web y la interacción con los usuarios. Usa tecnologías modernas para ofrecer una experiencia de usuario fluida.
+
+5. Tecnologías Utilizadas
+El equipo ha utilizado las siguientes herramientas y tecnologías para desarrollar el proyecto:
+•	Frontend: HTML, CSS, JavaScript
+•	Backend: Node.js, Express.js
+•	Base de datos: MySQL
+•	Control de versiones: Git y GitHub para la gestión del código
+•	Despliegue: Se prevé implementar la aplicación en un servidor web o plataforma en la nube.
+
+6. Conclusión
+Restaurante Gensokio es un proyecto integral que busca ofrecer a los usuarios una plataforma cómoda para explorar la rica tradición culinaria japonesa, facilitando el acceso a recetas. Gracias al trabajo coordinado del equipo, el proyecto está avanzando de manera exitosa hacia su implementación final.
+
+
+comandos usados para el frontend :
+- npm create vite@latest
+- npm install
+- npm -y
+
+Para descargar el proyecto se debe ingresar al enlace de Github el cual es el siguiente:https://github.com/Dnirock21/PROYECTO-RESTAURANTE-GENSOKIO.git
